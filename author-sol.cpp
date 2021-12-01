@@ -24,7 +24,7 @@ int main() {
 			}
 		}
 		// sort the sequence in non-decreasing order 
-		// and multiply the value above to largest element
+		// and multiply the value above to the largest element
 		sort(a.begin(), a.end());
 		a[n - 1] *= temp;
 		// calculate the sum of the sequence
